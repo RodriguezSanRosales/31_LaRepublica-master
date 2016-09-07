@@ -1,0 +1,167 @@
+		
+/*// Small devices (landscape phones, 544px and up)
+@media (min-width: 544px) { ... }
+*/
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+  .columnista {
+    width: 45%;
+  } 
+
+  .pic{
+  	max-width: 100px;
+  }
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+  .columnista {
+    width: 30%;
+  } 
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+.columnista{
+	box-sizing: border-box;
+	border: 1px solid lightgrey;
+	height: 12em;
+	padding-toprifht: 1.5em;
+	padding-left: 0.4em !important;
+	padding-right:0.5em !important;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0.7em;
+    margin-left:0.4em;
+    float: left;
+}
+
+.columnista>.marco{
+	position: absolute;
+}
+
+.marco{
+	background-color: lightgrey;
+	padding: 1em;
+	bottom:0.5em;
+	left: 0,5em;
+	width: 95%;
+
+}
+
+.marco:hover{
+	background-color: white;
+	border: 1px solid lightgrey;
+}
+
+p.fecha{
+	font-size: 0.7em;
+	margin-top: 1.5em;
+}
+
+p.titulo{
+	font-weight: bold;
+}
+p.nombre{
+	font-size: 0.7em;
+	font-family: impact;     /*AVERIGUAR*/
+	text-align: left;
+}
+p.seccion{
+	font-family: Impact; /*AVERIGUAR*/
+	text-transform: uppercase;
+	color: grey;
+	padding-bottom: 1em;
+	font-weight: lighter;
+}
+
+p.breve{
+	font-size: 0.8em;
+	color: grey;
+	text-align: left;
+	font-weight: bold;
+	margin-top: -0.5em;
+}
+
+.pic{
+	border: 2px solid white;
+	vertical-align: center;
+	max-width: 100%;
+}
+
+.pd-0{
+	padding:0px !important;
+}
+
+.m-0{
+	margin:0px;
+}
+.pl-5{
+	padding-left: 5%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+
+.botonrojo{
+	border-radius:4px;
+	color: white;
+	background-color: #B20000;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	font-weight: bold;
+
+}
+
+.fit{
+	width: 100%;
+}
+.todos{
+	padding-bottom: 1%;
+
+}
+.todos>.marco{
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.todos>.col-lg-4,.col-md-8,.col-sm-8,.col-xs-16{
+	padding: 0px !important;
+}
+
+.nav-abc{
+	width: 99%;
+	background-color:#B20000;
+	height: 3.5em;
+	margin-bottom: 1em;
+
+}
+
+.nav-abc>ul>li{
+	float: left;
+	padding:1.0em;
+}
+
+.nav-abc>ul>li>a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+	padding:0.5em;
+}
+
+.nav-abc>ul{
+	list-style-type: none;
+}
+
+.nav-abc>ul>li>a:hover{
+	background-color: red;
+	
+}
+#atencion{
+	background-color: darkred;
+	border-radius: 10px;
+}
